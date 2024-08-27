@@ -1,0 +1,17 @@
+<h1> Products </h1>
+
+<ul>
+    {{#each products}}
+        <li> {{this.title}} x {{this.description}} x {{this.price}} </li>
+    {{/each}}
+</ul>
+
+{{#if hasPrevPage}}
+    <a href="/database?limit={{limit}}&page={{prevPage}}"> Preview </a>
+{{/if}}
+
+{{#if hasNextPage}}
+    <a href="/database?limit={{limit}}&page={{nextPage}}"> Next </a>
+{{/if}}
+
+<p> Page {{currentPage}} of {{totalPages}} </p>

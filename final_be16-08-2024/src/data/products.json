@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "title": "Cámara Digital 4K",
+    "description": "Cámara digital con grabación en 4K y capacidad de 32 GB.",
+    "price": 200,
+    "thumbnail": "https://example.com/images/camera.jpg",
+    "code": "CAM4K123",
+    "stock": 25
+  }
+]
